@@ -1,0 +1,872 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist&amp;display=swap");
+*, :after, :before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/IMG_0577.png);
+  background-size: cover;
+  font-family: "Urbanist", sans-serif;
+}
+
+.make-header {
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #8264e2;
+}
+.make-header h2 {
+  margin-bottom: 0.6rem;
+}
+.make-header h2:first-of-type {
+  font-weight: 800;
+  margin-right: 0.5rem;
+  margin-left: 6rem;
+}
+.make-header h2:last-of-type {
+  font-weight: 300;
+}
+
+.trade-zone {
+  display: flex;
+  flex-wrap: wrap;
+}
+.trade-zone .trade {
+  width: 50%;
+  height: 82.5vh;
+  border-right: 2px solid #8264e2;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+.trade-zone .trade-left .trade-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trade-zone .trade-left .trade-header .header-content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.trade-zone .trade-left .trade-header h1:first-of-type {
+  margin-right: 2rem;
+  font-size: 1.5em;
+  border-bottom: 2px solid #8264e2;
+}
+.trade-zone .trade-left .trade-header .header-block {
+  display: flex;
+  align-items: center;
+  background-color: #8264e2;
+  color: white;
+  border-radius: 5px;
+  padding: 0.2rem 1.5rem;
+}
+.trade-zone .trade-left .trade-header .header-block h1 {
+  margin-right: 0.5rem;
+  font-size: 1.3em;
+}
+.trade-zone .trade-left .trade-header .header-block i {
+  font-size: 1.3em;
+}
+.trade-zone .trade-left .trade-header #plus-icon {
+  margin-left: 32rem;
+  font-size: 3.3em;
+  color: gray;
+}
+.trade-zone .trade-left .user-address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1rem;
+}
+.trade-zone .trade-left .user-address img {
+  width: 4%;
+  height: auto;
+  border: 2px solid rgb(95, 95, 95);
+  border-radius: 50%;
+}
+.trade-zone .trade-left .user-address p {
+  margin-left: 0.5rem;
+  font-size: 1.1em;
+}
+.trade-zone .trade-right .trade-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trade-zone .trade-right .trade-header .header-content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.trade-zone .trade-right .trade-header h1:first-of-type {
+  margin-right: 2rem;
+  font-size: 1.5em;
+  border-bottom: 2px solid #8264e2;
+}
+.trade-zone .trade-right .trade-header .header-block {
+  display: flex;
+  align-items: center;
+  background-color: #8264e2;
+  color: white;
+  border-radius: 5px;
+  padding: 0.2rem 1.5rem;
+}
+.trade-zone .trade-right .trade-header .header-block h1 {
+  margin: 0;
+  font-size: 1.3em;
+}
+.trade-zone .trade-right .trade-header .header-block i {
+  font-size: 1.3em;
+  margin-right: 0.5rem;
+}
+.trade-zone .trade-right .trade-header #plus-icon {
+  margin-left: 31rem;
+  font-size: 3.3em;
+  color: gray;
+}
+.trade-zone .trade-right .user-address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1rem;
+}
+.trade-zone .trade-right .user-address img {
+  width: 4%;
+  height: auto;
+  border: 2px solid rgb(95, 95, 95);
+  border-radius: 50%;
+}
+.trade-zone .trade-right .user-address p {
+  margin-left: 0.5rem;
+  font-size: 1.1em;
+}
+.trade-zone .trade-right .user-address .address-name {
+  background-color: #8264e2;
+  width: 3.3em;
+  height: 3.3em;
+  border-radius: 50%;
+  margin-left: 42.1rem;
+  text-align: center;
+  line-height: 3.3em;
+  display: flex;
+  flex-direction: row;
+}
+.trade-zone .trade-right .user-address .address-name p {
+  color: white;
+  font-weight: 600;
+}
+
+footer {
+  margin-top: 0rem;
+  border-top: 1px solid rgb(189, 189, 189);
+  padding: 10px;
+}
+
+footer .footer-content {
+  display: inline-flex;
+  display: column;
+  align-items: center;
+}
+
+footer p {
+  margin-left: 1rem;
+}
+
+footer .footer-logo {
+  margin-left: 1rem;
+}
+
+footer i {
+  margin-right: 0.5rem;
+  color: black;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  .trade-zone {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .trade-zone .trade {
+    width: 50%;
+    height: 82.5vh;
+    border-right: 2px solid #8264e2;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+  }
+  .trade-zone .trade-left .trade-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .trade-zone .trade-left .trade-header .header-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .trade-zone .trade-left .trade-header h1:first-of-type {
+    margin-right: 2rem;
+    font-size: 1.5em;
+    border-bottom: 2px solid #8264e2;
+  }
+  .trade-zone .trade-left .trade-header .header-block {
+    display: flex;
+    align-items: center;
+    background-color: #8264e2;
+    color: white;
+    border-radius: 5px;
+    padding: 0.2rem 1.5rem;
+  }
+  .trade-zone .trade-left .trade-header .header-block h1 {
+    margin-right: 0.5rem;
+    font-size: 1.3em;
+  }
+  .trade-zone .trade-left .trade-header .header-block i {
+    font-size: 1.3em;
+  }
+  .trade-zone .trade-left .trade-header #plus-icon {
+    margin-left: 10rem;
+    font-size: 3em;
+    color: gray;
+  }
+  .trade-zone .trade-left .user-address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .trade-zone .trade-left .user-address img {
+    width: 4%;
+    height: auto;
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 50%;
+  }
+  .trade-zone .trade-left .user-address p {
+    margin-left: 0.5rem;
+    font-size: 1.1em;
+  }
+  .trade-zone .trade-right .trade-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .trade-zone .trade-right .trade-header .header-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .trade-zone .trade-right .trade-header h1:first-of-type {
+    margin-right: 2rem;
+    font-size: 1.5em;
+    border-bottom: 2px solid #8264e2;
+  }
+  .trade-zone .trade-right .trade-header .header-block {
+    display: flex;
+    align-items: center;
+    background-color: #8264e2;
+    color: white;
+    border-radius: 5px;
+    padding: 0.2rem 1.5rem;
+  }
+  .trade-zone .trade-right .trade-header .header-block h1 {
+    margin: 0;
+    font-size: 1.3em;
+  }
+  .trade-zone .trade-right .trade-header .header-block i {
+    font-size: 1.3em;
+    margin-right: 0.5rem;
+  }
+  .trade-zone .trade-right .trade-header #plus-icon {
+    margin-left: 10rem;
+    font-size: 3em;
+    color: gray;
+  }
+  .trade-zone .trade-right .user-address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .trade-zone .trade-right .user-address img, .trade-zone .trade-right .user-address p {
+    margin-bottom: 1rem;
+  }
+  .trade-zone .trade-right .user-address img {
+    width: 4%;
+    height: auto;
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 50%;
+  }
+  .trade-zone .trade-right .user-address p {
+    margin-left: 0.5rem;
+    font-size: 1.1em;
+  }
+  .trade-zone .trade-right .user-address .address-name {
+    background-color: #8264e2;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    margin-left: 21.8rem;
+    text-align: center;
+    line-height: 3.3em;
+    display: flex;
+    flex-direction: row;
+  }
+  .trade-zone .trade-right .user-address .address-name p {
+    color: white;
+    font-weight: 600;
+  }
+  footer {
+    margin-top: 0rem;
+    border-top: 1px solid rgb(189, 189, 189);
+    padding-top: 10px;
+    padding-left: 1rem;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .make-header {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #8264e2;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .make-header h2 {
+    margin-bottom: 0.3rem;
+    font-size: 1.2em;
+  }
+  .make-header h2:first-of-type {
+    margin: 0;
+    font-weight: 800;
+  }
+  .make-header h2:last-of-type {
+    font-weight: 300;
+  }
+  .trade-zone {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .trade-zone .trade {
+    width: 100%;
+    height: 50vh;
+    border-right: none;
+    border-bottom: 2px solid #8264e2;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+  }
+  .trade-zone .trade-left .trade-header h1:first-of-type {
+    margin-right: 1rem;
+    font-size: 1.3em;
+    border-bottom: 2px solid #8264e2;
+  }
+  .trade-zone .trade-left .trade-header .header-block {
+    display: flex;
+    align-items: center;
+    background-color: #8264e2;
+    color: white;
+    border-radius: 5px;
+    padding: 0.2rem 1.5rem;
+  }
+  .trade-zone .trade-left .trade-header .header-block h1 {
+    margin-right: 0.5rem;
+    font-size: 1.3em;
+  }
+  .trade-zone .trade-left .trade-header .header-block i {
+    font-size: 1.3em;
+  }
+  .trade-zone .trade-left .trade-header #plus-icon {
+    margin-left: 1.4rem;
+    font-size: 2.5em;
+    color: gray;
+  }
+  .trade-zone .trade-left .user-address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .trade-zone .trade-left .user-address img {
+    width: 10%;
+    height: auto;
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 50%;
+  }
+  .trade-zone .trade-left .user-address p {
+    margin-left: 0.5rem;
+    font-size: 1.1em;
+  }
+  .trade-zone .trade-right .trade-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .trade-zone .trade-right .trade-header .header-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .trade-zone .trade-right .trade-header h1:first-of-type {
+    margin-right: 0.5rem;
+    font-size: 1.3em;
+    border-bottom: 2px solid #8264e2;
+  }
+  .trade-zone .trade-right .trade-header .header-block {
+    display: flex;
+    align-items: center;
+    background-color: #8264e2;
+    color: white;
+    border-radius: 5px;
+    padding: 0.2rem 1.5rem;
+  }
+  .trade-zone .trade-right .trade-header .header-block h1 {
+    margin: 0;
+    font-size: 1.3em;
+  }
+  .trade-zone .trade-right .trade-header .header-block i {
+    font-size: 1.3em;
+    margin-right: 0.5rem;
+  }
+  .trade-zone .trade-right .trade-header #plus-icon {
+    margin-left: 1rem;
+    font-size: 2.5em;
+    color: gray;
+  }
+  .trade-zone .trade-right .user-address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .trade-zone .trade-right .user-address img {
+    width: 10%;
+    height: auto;
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 50%;
+  }
+  .trade-zone .trade-right .user-address p {
+    margin-left: 0.5rem;
+    font-size: 1.1em;
+  }
+  .trade-zone .trade-right .user-address .address-name {
+    background-color: #8264e2;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    margin-left: 8.8rem;
+    text-align: center;
+    line-height: 2.5em;
+    display: flex;
+    flex-direction: row;
+  }
+  .trade-zone .trade-right .user-address .address-name p {
+    color: white;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .make-header {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #8264e2;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .make-header h2 {
+    margin-bottom: 0.3rem;
+    font-size: 1.2em;
+  }
+  .make-header h2:first-of-type {
+    margin: 0;
+    font-weight: 800;
+  }
+  .make-header h2:last-of-type {
+    font-weight: 300;
+  }
+  .trade-zone {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .trade-zone .trade {
+    width: 100%;
+    height: 50vh;
+    border-right: none;
+    border-bottom: 2px solid #8264e2;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+  }
+  .trade-zone .trade-left .trade-header h1:first-of-type {
+    margin-right: 1rem;
+    font-size: 1.3em;
+    border-bottom: 2px solid #8264e2;
+  }
+  .trade-zone .trade-left .trade-header .header-block {
+    display: flex;
+    align-items: center;
+    background-color: #8264e2;
+    color: white;
+    border-radius: 5px;
+    padding: 0.2rem 1.5rem;
+  }
+  .trade-zone .trade-left .trade-header .header-block h1 {
+    margin-right: 0.5rem;
+    font-size: 1.3em;
+  }
+  .trade-zone .trade-left .trade-header .header-block i {
+    font-size: 1.3em;
+  }
+  .trade-zone .trade-left .trade-header #plus-icon {
+    margin-left: 1.4rem;
+    font-size: 2.5em;
+    color: gray;
+  }
+  .trade-zone .trade-left .user-address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .trade-zone .trade-left .user-address img {
+    width: 10%;
+    height: auto;
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 50%;
+  }
+  .trade-zone .trade-left .user-address p {
+    margin-left: 0.5rem;
+    font-size: 1.1em;
+  }
+  .trade-zone .trade-right .trade-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .trade-zone .trade-right .trade-header .header-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .trade-zone .trade-right .trade-header h1:first-of-type {
+    margin-right: 0.5rem;
+    font-size: 1.3em;
+    border-bottom: 2px solid #8264e2;
+  }
+  .trade-zone .trade-right .trade-header .header-block {
+    display: flex;
+    align-items: center;
+    background-color: #8264e2;
+    color: white;
+    border-radius: 5px;
+    padding: 0.2rem 1.5rem;
+  }
+  .trade-zone .trade-right .trade-header .header-block h1 {
+    margin: 0;
+    font-size: 1.3em;
+  }
+  .trade-zone .trade-right .trade-header .header-block i {
+    font-size: 1.3em;
+    margin-right: 0.5rem;
+  }
+  .trade-zone .trade-right .trade-header #plus-icon {
+    margin-left: 1rem;
+    font-size: 2.5em;
+    color: gray;
+  }
+  .trade-zone .trade-right .user-address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .trade-zone .trade-right .user-address img {
+    width: 10%;
+    height: auto;
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 50%;
+  }
+  .trade-zone .trade-right .user-address p {
+    margin-left: 0.5rem;
+    font-size: 1.1em;
+  }
+  .trade-zone .trade-right .user-address .address-name {
+    background-color: #8264e2;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    margin-left: 8.8rem;
+    text-align: center;
+    line-height: 2.5em;
+    display: flex;
+    flex-direction: row;
+  }
+  .trade-zone .trade-right .user-address .address-name p {
+    color: white;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .make-header {
+    margin-top: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #8264e2;
+  }
+  .make-header h2 {
+    margin-bottom: 2rem;
+    font-size: 1.8em;
+  }
+  .make-header h2:first-of-type {
+    font-weight: 800;
+    margin-right: 0.5rem;
+    margin-left: 6rem;
+  }
+  .make-header h2:last-of-type {
+    font-weight: 300;
+  }
+  .trade-zone {
+    display: flex;
+  }
+  .trade-zone .trade {
+    width: 50%;
+    height: 106vh;
+    border-right: 2px solid #8264e2;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+  }
+  .trade-zone .trade-left .trade-header h1:first-of-type {
+    margin-right: 1rem;
+    font-size: 1.3em;
+    border-bottom: 2px solid #8264e2;
+  }
+  .trade-zone .trade-left .trade-header .header-block {
+    display: flex;
+    align-items: center;
+    background-color: #8264e2;
+    color: white;
+    border-radius: 5px;
+    padding: 0.2rem 1.5rem;
+  }
+  .trade-zone .trade-left .trade-header .header-block h1 {
+    margin-right: 0.5rem;
+    font-size: 1.3em;
+  }
+  .trade-zone .trade-left .trade-header .header-block i {
+    font-size: 1.3em;
+  }
+  .trade-zone .trade-left .trade-header #plus-icon {
+    margin-left: 1.4rem;
+    font-size: 2.5em;
+    color: gray;
+  }
+  .trade-zone .trade-left .user-address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .trade-zone .trade-left .user-address img {
+    width: 10%;
+    height: auto;
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 50%;
+  }
+  .trade-zone .trade-left .user-address p {
+    margin-left: 0.5rem;
+    font-size: 1.1em;
+  }
+  .trade-zone .trade-right .trade-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .trade-zone .trade-right .trade-header .header-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .trade-zone .trade-right .trade-header h1:first-of-type {
+    margin-right: 0.5rem;
+    font-size: 1.3em;
+    border-bottom: 2px solid #8264e2;
+  }
+  .trade-zone .trade-right .trade-header .header-block {
+    display: flex;
+    align-items: center;
+    background-color: #8264e2;
+    color: white;
+    border-radius: 5px;
+    padding: 0.2rem 1.5rem;
+  }
+  .trade-zone .trade-right .trade-header .header-block h1 {
+    margin: 0;
+    font-size: 1.3em;
+  }
+  .trade-zone .trade-right .trade-header .header-block i {
+    font-size: 1.3em;
+    margin-right: 0.5rem;
+  }
+  .trade-zone .trade-right .trade-header #plus-icon {
+    margin-left: 1rem;
+    font-size: 2.5em;
+    color: gray;
+  }
+  .trade-zone .trade-right .user-address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .trade-zone .trade-right .user-address img {
+    width: 10%;
+    height: auto;
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 50%;
+  }
+  .trade-zone .trade-right .user-address p {
+    margin-left: 0.5rem;
+    font-size: 1.1em;
+  }
+  .trade-zone .trade-right .user-address .address-name {
+    background-color: #8264e2;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    margin-left: 8.8rem;
+    text-align: center;
+    line-height: 2.5em;
+    display: flex;
+    flex-direction: row;
+  }
+  .trade-zone .trade-right .user-address .address-name p {
+    color: white;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-device-width: 820px) and (max-device-width: 1180px) and (-webkit-min-device-pixel-ratio: 1) {
+  .trade-zone .trade-header h1:first-of-type {
+    margin-right: 1rem;
+    font-size: 1.5em;
+    border-bottom: 2px solid #8264e2;
+  }
+  .make-header {
+    margin-top: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #8264e2;
+  }
+  .make-header h2 {
+    margin-bottom: 2rem;
+    font-size: 1.8em;
+  }
+  .make-header h2:first-of-type {
+    font-weight: 800;
+    margin-right: 0.5rem;
+    margin-left: 6rem;
+  }
+  .make-header h2:last-of-type {
+    font-weight: 300;
+  }
+  .trade-zone {
+    display: flex;
+  }
+  .trade-zone .trade {
+    width: 50%;
+    height: 106vh;
+    border-right: 2px solid #8264e2;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+  }
+  .trade-zone .trade-left .trade-header h1:first-of-type {
+    margin-right: 1rem;
+    font-size: 1.3em;
+    border-bottom: 2px solid #8264e2;
+  }
+  .trade-zone .trade-left .trade-header #plus-icon {
+    margin-left: 1.5rem;
+    font-size: 3em;
+    color: gray;
+  }
+  .trade-zone .trade-left .user-address {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .trade-zone .trade-left .user-address img {
+    width: 10%;
+    height: auto;
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 50%;
+  }
+  .trade-zone .trade-left .user-address p {
+    margin-left: 0.5rem;
+    font-size: 1.1em;
+  }
+  .trade-zone .trade-right .trade-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .trade-zone .trade-right .trade-header .header-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .trade-zone .trade-right .trade-header h1:first-of-type {
+    margin-right: 0.5rem;
+    font-size: 1.3em;
+    border-bottom: 2px solid #8264e2;
+  }
+  .trade-zone .trade-right .trade-header .header-block {
+    display: flex;
+    align-items: center;
+    background-color: #8264e2;
+    color: white;
+    border-radius: 5px;
+    padding: 0.2rem 1.5rem;
+  }
+  .trade-zone .trade-right .trade-header .header-block h1 {
+    margin: 0;
+    font-size: 1.3em;
+  }
+  .trade-zone .trade-right .trade-header .header-block i {
+    font-size: 1.3em;
+    margin-right: 0.5rem;
+  }
+  .trade-zone .trade-right .trade-header #plus-icon {
+    margin-left: 1.5rem;
+    font-size: 3em;
+    color: gray;
+  }
+  .trade-zone .trade-right .user-address .address-name {
+    background-color: #8264e2;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    margin-left: 9.1rem;
+    text-align: center;
+    line-height: 3em;
+    display: flex;
+    flex-direction: row;
+  }
+  .trade-zone .trade-right .user-address .address-name p {
+    color: white;
+    font-weight: 600;
+  }
+}/*# sourceMappingURL=make.css.map */

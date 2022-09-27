@@ -1,0 +1,497 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist&amp;display=swap");
+*, :after, :before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/IMG_0577.png);
+  background-size: cover;
+  font-family: "Urbanist", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #8264e2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1bfe5;
+}
+
+.trade-header {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+}
+
+.trade-header h2 {
+  margin-left: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+.trade-header {
+  border-bottom: 1px solid gray;
+}
+
+.trade-content {
+  margin-top: 4.5rem;
+  margin-left: 25rem;
+}
+.trade-content .trade-title {
+  margin-bottom: 2rem;
+  display: flex;
+}
+.trade-content .trade-title h2 {
+  font-size: 1.8em;
+  border-bottom: 2px solid #8264e2;
+}
+.trade-content .trade-main {
+  margin-top: 3rem;
+  display: flex;
+  vertical-align: auto;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.trade-content .trade-main .trade-status {
+  float: left;
+  margin-right: 2rem;
+  text-align: center;
+  vertical-align: auto;
+}
+.trade-content .trade-main .trade-status #active-status {
+  background-color: #c1bfe5;
+  border: 2px solid #8264e2;
+  border-radius: 10px;
+}
+.trade-content .trade-main .trade-status ul {
+  list-style-type: none;
+}
+.trade-content .trade-main .trade-status ul li {
+  display: flex;
+  padding: 0.6rem;
+}
+.trade-content .trade-main .trade-status ul li i {
+  margin-right: 0.9rem;
+  font-size: 1.7em;
+  color: #502acd;
+}
+.trade-content .trade-main .trade-status ul li p {
+  font-size: 1.3rem;
+}
+.trade-content .trade-main .trade-status ul li > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.trade-content .trade-main .trade-search {
+  background: rgb(230, 230, 230);
+  border: 2px solid #8264e2;
+  border-radius: 20px;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: auto;
+}
+.trade-content .trade-main .trade-search .search-bar label {
+  font-size: 1.4em;
+}
+.trade-content .trade-main .trade-search .search-bar label i {
+  padding-left: 0.7rem;
+}
+.trade-content .trade-main .trade-search .search-bar #search-input {
+  margin-top: 1rem;
+  background: #efefef;
+  border: none;
+  border-radius: 10px;
+  padding: 0.4rem;
+  width: 200%;
+  height: 3rem;
+}
+
+footer {
+  margin-top: 25rem;
+  border-top: 1px solid rgb(189, 189, 189);
+  padding: 10px;
+}
+
+footer .footer-content {
+  display: inline-flex;
+  display: row;
+  align-items: center;
+}
+
+footer p {
+  margin-left: 1rem;
+}
+
+footer .footer-logo {
+  margin-left: 1rem;
+}
+
+footer i {
+  margin-right: 0.5rem;
+  color: black;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  .trade-content {
+    margin-top: 4.5rem;
+    margin-left: 25rem;
+  }
+  .trade-content .trade-title {
+    margin-bottom: 2rem;
+    display: flex;
+  }
+  .trade-content .trade-title h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #8264e2;
+  }
+  .trade-content .trade-main {
+    margin-top: 3rem;
+    display: flex;
+    vertical-align: auto;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .trade-content .trade-main .trade-status {
+    float: left;
+    margin-right: 2rem;
+    text-align: center;
+    vertical-align: auto;
+  }
+  .trade-content .trade-main .trade-status #active-status {
+    background-color: #c1bfe5;
+    border: 2px solid #8264e2;
+    border-radius: 10px;
+  }
+  .trade-content .trade-main .trade-status ul {
+    list-style-type: none;
+  }
+  .trade-content .trade-main .trade-status ul li {
+    display: flex;
+    padding: 0.6rem;
+  }
+  .trade-content .trade-main .trade-status ul li i {
+    margin-right: 0.9rem;
+    font-size: 1.7em;
+    color: #502acd;
+  }
+  .trade-content .trade-main .trade-status ul li p {
+    font-size: 1.3rem;
+  }
+  .trade-content .trade-main .trade-status ul li > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .trade-content .trade-main .trade-search {
+    background: rgb(230, 230, 230);
+    border: 2px solid #8264e2;
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: auto;
+  }
+  .trade-content .trade-main .trade-search .search-bar label {
+    font-size: 1.4em;
+  }
+  .trade-content .trade-main .trade-search .search-bar label i {
+    padding-left: 0.7rem;
+  }
+  .trade-content .trade-main .trade-search .search-bar #search-input {
+    margin-top: 1rem;
+    background: #efefef;
+    border: none;
+    border-radius: 10px;
+    padding: 0.4rem;
+    width: 130%;
+    height: 3rem;
+  }
+  footer {
+    margin-top: 35rem;
+    border-top: 1px solid rgb(189, 189, 189);
+    padding-top: 10px;
+    padding-left: 1rem;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .trade-header {
+    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+  }
+  .trade-header h2 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  .trade-header {
+    border-bottom: 1px solid gray;
+  }
+  .trade-content {
+    margin: 0;
+    margin-top: 7rem;
+  }
+  .trade-content .trade-title {
+    margin-bottom: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .trade-content .trade-title h2 {
+    font-size: 1.2em;
+    border-bottom: 2px solid #8264e2;
+  }
+  .trade-content .trade-main {
+    margin-top: 3rem;
+    display: flex;
+    vertical-align: auto;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+  }
+  .trade-content .trade-main .trade-status {
+    float: left;
+    text-align: center;
+    vertical-align: auto;
+    width: 50%;
+  }
+  .trade-content .trade-main .trade-status #active-status {
+    background-color: #c1bfe5;
+    border: 2px solid #8264e2;
+    border-radius: 10px;
+  }
+  .trade-content .trade-main .trade-status ul {
+    list-style-type: none;
+  }
+  .trade-content .trade-main .trade-status ul li {
+    display: flex;
+    padding: 0.6rem;
+  }
+  .trade-content .trade-main .trade-status ul li i {
+    margin-right: 0.9rem;
+    font-size: 1.7em;
+    color: #502acd;
+  }
+  .trade-content .trade-main .trade-status ul li p {
+    font-size: 1.3rem;
+  }
+  .trade-content .trade-main .trade-status ul li > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .trade-content .trade-main .trade-search {
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    width: 100%;
+    text-align: center;
+  }
+  .trade-content .trade-main .trade-search .search-bar label {
+    font-size: 1.4em;
+  }
+  .trade-content .trade-main .trade-search .search-bar label i {
+    padding-left: 0.7rem;
+  }
+  .trade-content .trade-main .trade-search .search-bar #search-input {
+    margin-top: 1rem;
+    background: #efefef;
+    border: none;
+    border-radius: 10px;
+    padding: 0.4rem;
+    width: 100%;
+    height: 3rem;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .trade-header {
+    margin: 0;
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .trade-header h2 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  .trade-header {
+    border-bottom: 1px solid gray;
+  }
+  .trade-content {
+    margin: 0;
+    margin-top: 4rem;
+  }
+  .trade-content .trade-title {
+    margin-bottom: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .trade-content .trade-title h2 {
+    font-size: 1.2em;
+    border-bottom: 2px solid #8264e2;
+  }
+  .trade-content .trade-main {
+    margin-top: 3rem;
+    display: flex;
+    vertical-align: auto;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+  }
+  .trade-content .trade-main .trade-status {
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: auto;
+    width: 50%;
+  }
+  .trade-content .trade-main .trade-status #active-status {
+    background-color: #c1bfe5;
+    border: 2px solid #8264e2;
+    border-radius: 10px;
+  }
+  .trade-content .trade-main .trade-status ul {
+    list-style-type: none;
+  }
+  .trade-content .trade-main .trade-status ul li {
+    display: flex;
+    padding: 0.6rem;
+  }
+  .trade-content .trade-main .trade-status ul li i {
+    margin-right: 0.9rem;
+    font-size: 1.7em;
+    color: #502acd;
+  }
+  .trade-content .trade-main .trade-status ul li p {
+    font-size: 1.3rem;
+  }
+  .trade-content .trade-main .trade-status ul li > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .trade-content .trade-main .trade-search {
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    width: 100%;
+    text-align: center;
+  }
+  .trade-content .trade-main .trade-search .search-bar label {
+    font-size: 1.4em;
+  }
+  .trade-content .trade-main .trade-search .search-bar label i {
+    padding-left: 0.7rem;
+  }
+  .trade-content .trade-main .trade-search .search-bar #search-input {
+    margin-top: 1rem;
+    background: #efefef;
+    border: none;
+    border-radius: 10px;
+    padding: 0.4rem;
+    width: 100%;
+    height: 3rem;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .trade-header h2 {
+    font-size: 1.8rem;
+    margin-left: 4rem;
+    margin-bottom: 0.5rem;
+  }
+  .trade-header {
+    border-bottom: 1px solid gray;
+  }
+  .trade-content {
+    margin-top: 10rem;
+    margin-left: 5rem;
+  }
+  .trade-content .trade-title {
+    margin-bottom: 2rem;
+    display: flex;
+  }
+  .trade-content .trade-title h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #8264e2;
+  }
+  .trade-content .trade-main {
+    margin-top: 3rem;
+    display: flex;
+    vertical-align: auto;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .trade-content .trade-main .trade-status {
+    float: left;
+    margin-right: 2rem;
+    text-align: center;
+    vertical-align: auto;
+  }
+  .trade-content .trade-main .trade-status #active-status {
+    background-color: #c1bfe5;
+    border: 2px solid #8264e2;
+    border-radius: 10px;
+  }
+  .trade-content .trade-main .trade-status ul {
+    list-style-type: none;
+  }
+  .trade-content .trade-main .trade-status ul li {
+    display: flex;
+    padding: 0.6rem;
+  }
+  .trade-content .trade-main .trade-status ul li i {
+    margin-right: 0.9rem;
+    font-size: 1.7em;
+    color: #502acd;
+  }
+  .trade-content .trade-main .trade-status ul li p {
+    font-size: 2rem;
+  }
+  .trade-content .trade-main .trade-status ul li > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .trade-content .trade-main .trade-search {
+    background: rgb(230, 230, 230);
+    border: 2px solid #8264e2;
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: auto;
+  }
+  .trade-content .trade-main .trade-search .search-bar label {
+    font-size: 1.4em;
+  }
+  .trade-content .trade-main .trade-search .search-bar label i {
+    padding-left: 0.7rem;
+  }
+  .trade-content .trade-main .trade-search .search-bar #search-input {
+    margin-top: 1rem;
+    background: #efefef;
+    border: none;
+    border-radius: 10px;
+    padding: 0.4rem;
+    width: 100%;
+    height: 3rem;
+  }
+  footer {
+    margin-top: 32rem;
+    border-top: 1px solid rgb(189, 189, 189);
+    padding-top: 10px;
+    padding-left: 1rem;
+  }
+  footer p {
+    position: relative;
+    bottom: 2rem;
+    left: 12rem;
+  }
+}/*# sourceMappingURL=trade.css.map */

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from gigatrade.app/make.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Aug 2022 23:49:17 GMT -->
+<head>
+    <!-- REACT START-->
+    <title>Trade | Gigatrade</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/make.css" />
+    <link rel="stylesheet" href="dist/css/general.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <meta name="trustpilot-one-time-domain-verification-id" content="385eb6c8-7259-40bb-b48a-0c4fa3df48de"/>
+
+    <!-- main files-->
+    <script src="dist/js/modules/react.production.min.js"></script>
+    <script src="dist/js/modules/react-dom.production.min.js"></script>
+    <script src="dist/js/modules/babel.min.js"></script>
+  
+    <!-- imports-->
+    <link rel="stylesheet" type="text/css" href="dist/js/modules/spin.css">
+    <script src="dist/js/modules/web3.min.js"></script>
+    <script src="dist/js/modules/spin.umd.js"></script>
+    <script src="dist/js/modules/axios.min.js"></script>
+    <script src="dist/js/modules/ethereumjs-tx-1.3.3.min.js"></script>
+  
+    <!-- render -->
+    <script src="dist/js/utils.js"></script>
+    <script src="dist/js/showMess.js"></script>
+    <script type="text/babel" src="dist/js/WalletButton.js"></script>
+    <script type="text/babel" src="dist/js/SignBlock.js"></script>
+  
+    <script type="text/babel">
+      ReactDOM.render(<SignBlock />, document.querySelector("#sign-block"));
+      ReactDOM.render(<SignBlock />, document.querySelector("#sign-bl"));
+    </script>
+    <!-- <script type="text/babel">
+      ReactDOM.render(
+        <WalletButton />,
+        document.querySelector("#wallet-button")
+      );
+    </script> -->
+</head>
+<body>
+    <header>
+        <navbar>
+          <ul class="nav-list">
+            <li class="nav-item"><img src="dist/img/logo.png"></li>
+            <li class="nav-item"><a href="index-2.html">Home</a></li>
+            <li class="nav-item"><a href="make.html">Make a trade</a></li>
+            <li class="nav-item"><a href="trade.html">My Trades</a></li>
+            <li class="nav-item"><a href="history.html">Deals History</a></li>
+            <li class="nav-item">
+              <div id="root">
+                <div>
+                  <div id="sign-block"></div>
+                </div>
+              </div>
+            </li>
+          </ul>
+      </navbar>
+      <navbar>
+        <ul class="nav-list-mobile">
+          <li class="mobile-item"><img src="dist/img/logo.png"></li>
+          <li class="mobile-item">
+            <div id="root">
+              <div>
+                <div id="sign-bl" style="margin-right: 1rem;"></div>
+              </div>
+            </div>
+          </li>
+          <li class="mobile-item">
+              <div class="mobile-list">
+                <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+          </li>
+        </ul>
+        <div class="nav-menu-mobile">
+          <div id="items">
+          <div class="nav-links-mobile">
+            <a href="index-2.html">Home</a>
+            <a href="make.html">Make a trade</a>
+            <a href="trade.html">My Trades</a>
+            <a href="history.html">Deals History</a>
+          </div>
+            <div class="nav-icons-mobile">
+              <a href="https://discord.com/gigatrade"><i class="fa-brands fa-discord"></i></a><a href="https://twitter.com/gigatrade"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+          </div>
+        </div> 
+      </navbar>
+      </header>
+      <div class="make-header">
+        <h2>Step 0 of 2</h2><h2>Connect your wallet to make a trade.</h2>
+      </div>
+      <div class="trade-zone" style="opacity:0.5;pointer-events:none;">
+        <div class="trade trade-left">
+          <div class="trade-header">
+            <div class="header-content">
+              <h1>My Wallet Assets</h1>
+              <div class="header-block"><h1>OUT</h1><i class="fa-solid fa-arrow-right-long"></i></div>
+              <i class="fa-solid fa-circle-plus" id="plus-icon"></i>
+            </div>
+          </div>
+          <div class="user-address">
+            <img src="dist/img/image.svg" alt="user-image"><p>(connect your wallet)</p>
+          </div>
+        </div>
+        <div class="trade trade-right">
+          <div class="trade-header">
+            <div class="header-content">
+              <h1>Contery Parts Assets</h1>
+              <div class="header-block"><i class="fa-solid fa-arrow-left-long"></i><h1>IN</h1></div>
+              <i class="fa-solid fa-circle-plus" id="plus-icon"></i>
+            </div>
+        </div>
+        <div class="user-address">
+          <img src="dist/img/image.svg" alt="user-image"><p>(select a wallet)</p><div class="address-name"><p>0x..</p></div>
+        </div>
+        </div>
+
+      </div>
+      <footer>
+        <div class="footer-content">
+          <img src="dist/img/logo.png">
+          <p>2022 Gigatrade. All Rights Reserved.</p>
+          <div class="footer-logo">
+            <a href="https://discord.com/gigatrade"><i class="fa-brands fa-discord"></i></a><a href="https://twitter.com/gigatrade"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </footer>
+      <script src="dist/js/nav.js"></script>
+      <script src="../kit.fontawesome.com/85b199d966.js" crossorigin="anonymous"></script>
+</body>
+
+<!-- Mirrored from gigatrade.app/make.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Aug 2022 23:49:20 GMT -->
+</html>
