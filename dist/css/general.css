@@ -155,7 +155,7 @@ footer {
     background-position: 50%;
   }
   header {
-    background-color: white;
+    background-color: black;
   }
   .nav-menu-mobile {
     display: block;
@@ -170,7 +170,7 @@ footer {
     align-items: center;
     font-weight: 600;
     margin-right: 6rem;
-    background-color: white;
+    background-color: black;
   }
   .mobile-item button {
     font-family: "Urbanist", sans-serif;
@@ -193,7 +193,7 @@ footer {
   .mobile-item .mobile-list {
     margin-left: 1.6rem;
     font-size: 1.4rem;
-    color: black;
+    color: white;
   }
   .nav-list {
     display: none;
@@ -350,7 +350,7 @@ footer {
   .mobile-item .mobile-list {
     margin-left: 2rem;
     font-size: 1.7rem;
-    color: black;
+    color: white;
   }
   .mobile-item button {
     margin-left: 20rem;
