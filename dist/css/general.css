@@ -13,7 +13,7 @@ iframe {
 }
 
 header {
-  background-color: white;
+  background-color: black;
   background-blend-mode: darken;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
@@ -32,7 +32,7 @@ header {
 
 .nav-menu-mobile {
   overflow: hidden;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(24, 23, 23);
   position: relative;
 }
 
@@ -67,13 +67,15 @@ header {
 
 .nav-list {
   margin: 0;
+  color: white !important;
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   margin-right: 8rem;
   font-weight: 600;
-  background-color: white;
+  background-color:#000000;
+  
 }
 
 .nav-list-mobile {
@@ -90,7 +92,7 @@ header {
 
 .nav-item a {
   text-decoration: none;
-  color: black;
+  color: white !important;
 }
 
 .nav-item a {
@@ -141,7 +143,7 @@ header {
 }
 
 footer {
-  background: white;
+  background: black;
 }
 
 .footer-content {
@@ -202,6 +204,7 @@ footer {
   footer p {
     left: 5rem;
     bottom: 1.3rem;
+    color: white;
   }
   footer .footer-logo {
     display: none;
@@ -212,12 +215,12 @@ footer {
     background-position: 50%;
   }
   header {
-    background-color: white;
+    background-color: black;
   }
   .mobile-item .mobile-list {
     margin-left: 1.6rem;
     font-size: 1.4rem;
-    color: black;
+    color: white;
   }
   .nav-list-mobile {
     margin: 0;
@@ -252,7 +255,7 @@ footer {
     display: none;
   }
   footer img {
-    width: 80px;
+    width: 100px;
   }
   footer p {
     left: 5.2rem;
@@ -267,12 +270,12 @@ footer {
     background-position: 50%;
   }
   header {
-    background-color: white;
+    background-color: black;
   }
   .mobile-item .mobile-list {
     margin-left: 1.5rem;
     font-size: 1.7rem;
-    color: black;
+    color: white;
   }
   .nav-links-mobile a {
     margin-bottom: 1.4rem;
@@ -298,7 +301,7 @@ footer {
     align-items: center;
     font-weight: 600;
     margin-right: 6rem;
-    background-color: white;
+    background-color: black;
   }
   .mobile-item button {
     font-family: "Urbanist", sans-serif;
@@ -338,7 +341,7 @@ footer {
 }
 @media only screen and (min-device-width: 820px) and (max-device-width: 1180px) and (-webkit-min-device-pixel-ratio: 1) {
   header {
-    background-color: white;
+    background-color: black;
   }
   .nav-list-mobile {
     margin: 0;
@@ -355,7 +358,7 @@ footer {
   .mobile-item .mobile-list {
     margin-right: 2rem;
     font-size: 1.7rem;
-    color: black;
+    color: white;
   }
   footer .footer-logo {
     display: none;
