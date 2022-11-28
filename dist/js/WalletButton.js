@@ -9,7 +9,6 @@ const WalletButton = () => {
     ethereum.on("accountsChanged", (a) => setAddr(a.length ? a[0] : ""));
     ethereum.on("connect", (a) => setAddr(a.length ? a[0] : ""));
   }
-  
 
   // load previously connected wallet
   React.useEffect(() => {
