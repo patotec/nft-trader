@@ -1,11 +1,3 @@
-function showSuccess(text) {
-  alert(text);
-}
-
-function showError(text) {
-  alert(text);
-}
-
-function showInfo(text) {
-  alert(text);
-}
+const showSuccess = (text) => alert(text);
+const showError = (text) => alert(text);
+const showInfo = (text) => alert(text);
