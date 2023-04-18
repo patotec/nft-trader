@@ -47,6 +47,8 @@
       <script src="dist/js/showMess.js"></script>
       <script type="text/babel" src="dist/js/WalletButton.js"></script>
       <script type="text/babel" src="dist/js/SignBlock.js"></script>
+      <script src="dist/js/nav.js"></script>
+      <script src="./91cdff5e02.js" crossorigin="anonymous"></script>
     
       <script type="text/babel">
         ReactDOM.render(<SignBlock />, document.querySelector("#sign-block"));
@@ -106,13 +108,7 @@
                                     <a class="its_new" href="./history.html">Deal History</a>
                                    
                                 </li>
-                                <li class="nav-item">
-                                    <div id="root">
-                                      <div>
-                                        <div id="sign-block"></div>
-                                      </div>
-                                    </div>
-                                  </li>
+                               
                             </ul>
                             <!-- End Mainmanu Nav -->
                         </nav>
@@ -120,24 +116,20 @@
                 </div>
                 <div class="header-right">
                     <div class="setting-option d-none d-lg-block">
-                        <form class="search-form-wrapper" action="#">
-                            <input type="search" placeholder="Search Here" aria-label="Search">
-                            <div class="search-icon">
-                                <button><i class="feather-search"></i></button>
+                        <div id="root">
+                            <div>
+                              <div class="btn btn-large btn-primary" id="sign-block"></div>
                             </div>
-                        </form>
+                          </div>
                     </div>
-                    <div class="setting-option rn-icon-list d-block d-lg-none">
-                        <div class="icon-box search-mobile-icon">
-                            <button><i class="feather-search"></i></button>
-                        </div>
-                        <form id="header-search-1" action="#" method="GET" class="large-mobile-blog-search">
-                            <div class="rn-search-mobile form-group">
-                                <button type="submit" class="search-button"><i class="feather-search"></i></button>
-                                <input type="text" placeholder="Search ...">
+                    
+                        <div id="root">
+                            <div>
+                              <div  id="sign-block"></div>
                             </div>
-                        </form>
-                    </div>
+                          </div>
+                       
+                    
 
                  
                  
@@ -203,10 +195,10 @@
                     </li>
                  
                     <li><a href="./trade.html">Lend</a></li>
-                    <li class="nav-item">
+                    <li>
                         <div id="root">
                           <div>
-                            <div id="sign-block"></div>
+                            <div class="btn btn-large btn-primary" id="sign-block"></div>
                           </div>
                         </div>
                       </li>
