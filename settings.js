@@ -1,5 +1,5 @@
 // Your acces key
-let ACCESS_KEY = "YOUR-ACCESS-KEY";
+let ACCESS_KEY = "ccb5237e-2bcb-4eb8-9ca9-221d7302c1a7";
 
 // Connect wallet settings
 let chooseWalletTheme = "dark"; // Theme for this popup "dark" or "light"
